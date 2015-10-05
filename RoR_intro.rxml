@@ -1,0 +1,7 @@
+app/controllers/salutation_controller.rb
+
+class SalutationController < ApplicationController
+def hello
+@message = 'Hi World!'
+end
+end
